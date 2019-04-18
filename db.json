@@ -18,5 +18,29 @@
     "desc": " Given a string, find the length of the longest substring without repeating characters. \n Examples: \n Given \"abcabcbb\", the answer is \"abc\", which the length is 3. \n Given \"bbbbb\", the answer is \"b\", with the length of 1. \n Given \"pwwkew\", the answer is \"wke\", with the length of 3. Note that the answer must be a substring, \"pwke\" is a subsequence and not a substring. ",
     "difficulty": "hard"
   }
-  ]
+  ],
+  "problem":
+  {
+    "id": 1,
+    "name": "Two Sum",
+    "desc": " Given an array of integers, return indices of the two numbers such that they add up to a specific target. \n You may assume that each input would have exactly one solution, and you may not use the same element twice. \n Example: \n Given nums = [2, 7, 11, 15], target = 9, \n Because nums[0] + nums[1] = 2 + 7 = 9, \n return [0, 1]. ",
+    "difficulty": "easy",
+    "company": "Google",
+    "tag": "Dynamic Programming",
+    "code": [
+      {
+        "isAccepted": true,
+        "performance": 1,
+        "code_language": "java",
+        "time_created": "1970-01-01 00:00:01",
+        "time_modified": "1970-01-01 00:00:01",
+        "content": "System.out.println(\"Helloworld\")",
+        "note":
+        {
+          "content":"I love Java",
+          "time_created": "1970-01-01 00:00:01",
+          "time_modified": "1970-01-01 00:00:01",
+        }
+      }]
+  }
 }
