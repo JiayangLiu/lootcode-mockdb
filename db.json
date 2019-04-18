@@ -3,20 +3,102 @@
   {
     "id": 1,
     "name": "Two Sum",
-    "desc": " Given an array of integers, return indices of the two numbers such that they add up to a specific target. \n You may assume that each input would have exactly one solution, and you may not use the same element twice. \n Example: \n Given nums = [2, 7, 11, 15], target = 9, \n Because nums[0] + nums[1] = 2 + 7 = 9, \n return [0, 1]. ",
     "difficulty": "easy"
   },
   {
     "id": 2,
     "name": "Add Two Numbers",
-    "desc": " You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. \n You may assume the two numbers do not contain any leading zero, except the number 0 itself. \n Input: (2 -> 4 -> 3) + (5 -> 6 -> 4) \n Output: 7 -> 0 -> 8 ",
     "difficulty": "medium"
   },
   {
     "id": 3,
     "name": "Longest Substring Without Repeating Characters",
-    "desc": " Given a string, find the length of the longest substring without repeating characters. \n Examples: \n Given \"abcabcbb\", the answer is \"abc\", which the length is 3. \n Given \"bbbbb\", the answer is \"b\", with the length of 1. \n Given \"pwwkew\", the answer is \"wke\", with the length of 3. Note that the answer must be a substring, \"pwke\" is a subsequence and not a substring. ",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "name": "Median of Two Sorted Arrays",
     "difficulty": "hard"
+  },
+  {
+    "id": 5,
+    "name": "Longest Palindromic Substring",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "name": "ZigZag Conversion",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "name": "Reverse Integer",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "name": "String to Integer (atoi)",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "name": "Palindrome Number",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "name": "Regular Expression Matching",
+    "difficulty": "hard"
+  },
+  {
+    "id": 11,
+    "name": "Container With Most Water",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "name": "Integer to Roman",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "name": "Roman to Integer",
+    "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "name": "Longest Common Prefix",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "name": "3Sum",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "name": "3Sum Closest",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "name": "Letter Combinations of a Phone Number",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "name": "4Sum",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "name": "Remove Nth Node From End of List",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "name": "Valid Parenthese",
+    "difficulty": "easy"
   }
   ],
   "problem":
