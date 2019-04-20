@@ -107,10 +107,8 @@
      "name":"Two Sum",
      "desc":" Given an array of integers, return indices of the two numbers such that they add up to a specific target. \n You may assume that each input would have exactly one solution, and you may not use the same element twice. \n Example: \n Given nums = [2, 7, 11, 15], target = 9, \n Because nums[0] + nums[1] = 2 + 7 = 9, \n return [0, 1]. ",
      "difficulty":"easy",
-     "Company":[
+     "Company":
         "Google",
-        "Amazon"
-     ],
      "tag":"Dynamic Programming",
      "code":[
         {
