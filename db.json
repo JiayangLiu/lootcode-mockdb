@@ -103,25 +103,25 @@
   ],
   "problem":
     {
-     "id":1,
-     "name":"Two Sum",
-     "desc":" Given an array of integers, return indices of the two numbers such that they add up to a specific target. \n You may assume that each input would have exactly one solution, and you may not use the same element twice. \n Example: \n Given nums = [2, 7, 11, 15], target = 9, \n Because nums[0] + nums[1] = 2 + 7 = 9, \n return [0, 1]. ",
+     "problemId":1,
+     "title":"TWO SUM",
+     "description":" Given an array of integers, return indices of the two numbers such that they add up to a specific target. \n You may assume that each input would have exactly one solution, and you may not use the same element twice. \n Example: \n Given nums = [2, 7, 11, 15], target = 9, \n Because nums[0] + nums[1] = 2 + 7 = 9, \n return [0, 1]. ",
      "difficulty":"easy",
-     "Company":[
+     "companyList":[
         "Google",
         "Amazon"
      ],
      "tag":"Dynamic Programming",
-     "code":[
+     "codeList":[
         {
            "isAccepted":true,
            "performance":1,
-           "code_language":"java",
-           "time_created":"1970-01-01 00:00:01",
-           "time_modified":"1970-01-01 00:00:01",
-           "content":"System.out.println(\"Helloworld\")",
+           "codeLanguage":"java",
+           "createTime":"1970-01-01 00:00:01",
+           "modeifyTime":"1970-01-01 00:00:01",
+           "content":"System.out.println(\"Helloworld\");",
            "note":{
-              "content":"I love Java",
+              "content":"To improve our run time complexity, we need a more efficient way to check if the complement exists in the array. If the complement exists, we need to look up its index. What is the best way to maintain a mapping of each element in the array to its index? A hash table.\n",
               "time_created":"1970-01-01 00:00:01",
               "time_modified":"1970-01-01 00:00:01"
            }
@@ -129,9 +129,9 @@
         {
            "isAccepted":false,
            "performance":0.01,
-           "code_language":"C++",
-           "time_created":"1970-01-01 00:00:01",
-           "time_modified":"1970-01-01 00:00:01",
+           "codeLanguage":"C++",
+           "createTime":"1970-01-01 00:00:01",
+           "modeifyTime":"1970-01-01 00:00:01",
            "content":"cout << \"Helloworld\"",
            "note":{
               "content":"I love c++",
