@@ -116,7 +116,7 @@
         {
            "isAccepted":true,
            "performance":0.1,
-           "codeLanguage":"java",
+           "codeLanguage":"Java",
            "createTime":"1970-01-01 00:00:01",
            "modeifyTime":"1970-01-01 00:00:01",
            "content":"public class Solution {\n  public boolean existSum1(int[] array, int target) {\n    Map<Integer, Integer> map = new HashMap<>();\n    for (int i = 0; i < array.length; i++){\n      int check = target - array[i];\n      if (map.containsKey(check)){\n        return true;\n      }\n      map.put(array[i], i);\n    }\n    return false;\n  }\n  \n  public boolean existSum(int[] array, int target) {\n    Arrays.sort(array);\n    int left = 0;\n    int right = array.length - 1;\n    while(left < right){\n      int sum = array[left] + array[right];\n      if (sum == target){\n        return true;\n      }else if (sum < target){\n        left++;\n      }else{\n        right--;\n      }\n    }\n    return false;\n  }\n}",
